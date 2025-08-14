@@ -1,0 +1,8 @@
+/* src/styles/button.scss */
+@reference "tailwindcss";
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-primary text-white px-4 py-2 rounded;
+  }
+}

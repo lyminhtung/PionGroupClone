@@ -2,7 +2,10 @@ import React from 'react'
 import Image from 'next/image'
 import { logo } from '../../../public/img'
 import './Header.css'
+import '../../styles/button.scss'
+import { Button } from '@/components/ui/btn/Button.component';
 const MainHeader=() =>{
+    console.log('Button type:', typeof Button);
   return (
     <header className="header-area style-1">
         <div className="container flex flex-nowrap items-center justify-between">
@@ -15,7 +18,7 @@ const MainHeader=() =>{
                     </a>
                 </div>
             </div>
-            <div className="main-menu !hidden lg:!flex">
+            <div className="main-menu lg:!flex">
                 <ul className="menu-list flex flex-nowrap items-center justify-between">
                     <li className="">
                         <a className='drop-down flex items-center' href='#banner'>
@@ -56,12 +59,17 @@ const MainHeader=() =>{
                                      
                 </ul>
             </div>
-            <div className="flex items-center justify-between gap-3">
-                <button className="btn-primary">
-                    <span className="text-sm font-semibold tracking-wide text-white ">Tải xuống</span>
+            <div className="">
+                <Button variant='primary' size='sm' className='items-center space-x-2'>
+                    <span className="text-sm font-semibold tracking-wide text-white pr-2 whitespace-nowrap">Tải xuống</span>
                     <i className="bi bi-download text-white"></i>
-                </button>
+                </Button>
             </div>
+            <Button variant='secondary' size='lg' className='item-center'>
+                <span className=" font-semibold tracking-wide text-white pr-2 whitespace-nowrap">Tải xuống</span>
+                <i className="bi bi-download text-white "></i>
+            </Button>
+            
         </div>
     </header>
   )
