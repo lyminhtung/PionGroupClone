@@ -61,14 +61,10 @@ const MainHeader=() =>{
             </div>
             <div className="">
                 <Button variant='primary' size='sm' className='items-center space-x-2'>
-                    <span className="text-sm font-semibold tracking-wide text-white pr-2 whitespace-nowrap">Tải xuống</span>
-                    <i className="bi bi-download text-white"></i>
+                    <span className="">Tải xuống</span>
+                    <i className="bi bi-download "></i>
                 </Button>
             </div>
-            <Button variant='secondary' size='lg' className='item-center'>
-                <span className=" font-semibold tracking-wide text-white pr-2 whitespace-nowrap">Tải xuống</span>
-                <i className="bi bi-download text-white "></i>
-            </Button>
             
         </div>
     </header>
