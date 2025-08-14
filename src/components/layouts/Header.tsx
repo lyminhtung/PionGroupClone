@@ -65,10 +65,6 @@ const MainHeader=() =>{
                     <i className="bi bi-download "></i>
                 </Button>
             </div>
-            <Button variant='secondary' size='lg' className='item-center'>
-                <span className="">Tải xuống</span>
-                <i className="bi bi-download text-white "></i>
-            </Button>
             
         </div>
     </header>
