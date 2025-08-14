@@ -1,0 +1,10 @@
+li{ 
+
+    padding: 20px 25px 0 25px;
+    position: relative;
+}
+.container{
+    display: flex;
+    align-content: center;
+  
+}

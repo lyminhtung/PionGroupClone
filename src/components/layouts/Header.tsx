@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { logo } from '../../../public/img'
+import './Header.css'
 const MainHeader=() =>{
   return (
     <header className="header-area style-1">
@@ -15,7 +16,7 @@ const MainHeader=() =>{
                 </div>
             </div>
             <div className="main-menu !hidden lg:!flex">
-                <ul className="menu-list">
+                <ul className="menu-list flex flex-nowrap items-center justify-between">
                     <li className="">
                         <a className='drop-down flex items-center' href='#banner'>
                             Trang chủ
@@ -26,31 +27,41 @@ const MainHeader=() =>{
                             Bảng giá
                         </a>
                     </li>
-                    <li className="menu-item-has-children h-full">
+                    <li className="menu-item-has-children flex h-full">
                         <a className='drop-down flex items-center h-full cursor-pointer' href='#banner'>
                             Hướng dẫn
                         </a>
-                        <i className="drop-down flex items-center h-full cursor-pointer"></i>
+                        <i className="bi bi-chevron-down pl-2">
+                        </i>
                     </li>
-                    <li className="">
+                    <li className="menu-item-has-children flex h-full">
                         <a className='drop-down flex items-center' href='#banner'>
-                            Trang chủ
+                            Tài nguyên
                         </a>
+                        <i className="bi bi-chevron-down pl-2">
+                        </i>
                     </li>
-                    <li className="">
+                    <li className="menu-item-has-children flex h-full">
                         <a className='drop-down flex items-center' href='#banner'>
-                            Trang chủ
+                            Cộng đồng
                         </a>
+                        <i className="bi bi-chevron-down pl-2">
+                        </i>
                     </li>
                     <li className="">
                         <a className='drop-down flex items-center' href='#banner'>
-                            Trang chủ
+                            Liên hệ
                         </a>
                     </li>
                                      
                 </ul>
             </div>
-            <div className="flex items-center justify-between gap-3"></div>
+            <div className="flex items-center justify-between gap-3">
+                <button className="btn-primary">
+                    <span className="text-sm font-semibold tracking-wide text-white ">Tải xuống</span>
+                    <i className="bi bi-download text-white"></i>
+                </button>
+            </div>
         </div>
     </header>
   )
