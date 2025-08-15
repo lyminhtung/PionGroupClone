@@ -5,15 +5,14 @@ import { useState,useEffect } from 'react';
 import'./Container.scss'
 import Board01 from './BoardContent/Board01/Board01';
 import Board02 from './BoardContent/Board02/Board02';
+import Board03 from './BoardContent/Board03/Board03';
 const MainContainer = () =>{
   
   return (
     <div>
         <Board01/>
         <Board02/>
-        <div>
-            <h1>Board 03</h1>
-        </div>
+        <Board03/>
         <div>
             <h1>Board 04</h1>
         </div>
