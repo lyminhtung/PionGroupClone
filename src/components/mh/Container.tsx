@@ -8,6 +8,7 @@ import Board02 from './BoardContent/Board02/Board02';
 import Board03 from './BoardContent/Board03/Board03';
 import Board04 from './BoardContent/Board04/Board04';
 import Board05 from './BoardContent/Board05/Board05';
+import Board06 from './BoardContent/Board06/Board06';
 const MainContainer = () =>{
   
   return (
@@ -17,9 +18,7 @@ const MainContainer = () =>{
         <Board03/>
         <Board04/>
         <Board05/>
-        <div>
-            <h1>Board 06</h1>
-        </div>
+        <Board06/>
         <div>
             <h1>Board 07</h1>
         </div>
