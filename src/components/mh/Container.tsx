@@ -4,14 +4,13 @@ import { Button } from '../ui/btn/Button.component'
 import { useState,useEffect } from 'react';
 import'./Container.scss'
 import Board01 from './BoardContent/Board01/Board01';
+import Board02 from './BoardContent/Board02/Board02';
 const MainContainer = () =>{
   
   return (
     <div>
         <Board01/>
-        <div>
-            <h1>Board 02</h1>
-        </div>
+        <Board02/>
         <div>
             <h1>Board 03</h1>
         </div>
