@@ -16,6 +16,3 @@ a {
   --bs-primary: #000000;
   --bs-primary-rgb: 0, 0, 0;
 }
-.bg-primary {
-  background-color: #000000 !important;
-}

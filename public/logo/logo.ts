@@ -6,4 +6,8 @@ import xwebLogo from './x.webp'
 import youtubeLogo from './youtube.webp'
 import tiktokLogo from './tiktok.webp'
 import chormeLogo from './chromium.webp'
-export {discordLogo,fbLogo,insntaLogo,teleLogo,xwebLogo,youtubeLogo,tiktokLogo,chormeLogo}
+import squareFbLogo from './facebook (1).webp'
+import squareDiscordLogo from './discord (1).webp'
+import squareInstaLogo from './instagram (1).webp'
+import suqareGmailLogo from './gmail.webp'
+export {discordLogo,fbLogo,insntaLogo,teleLogo,xwebLogo,youtubeLogo,tiktokLogo,chormeLogo,squareDiscordLogo,squareFbLogo,squareInstaLogo,suqareGmailLogo}
