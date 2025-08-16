@@ -1,13 +1,16 @@
 import React from 'react'
 import { Button } from '@/components/ui/btn/Button.component'
 import { useState,useEffect } from 'react';
-import './Board01.scss'
+import './Board01.scss';
+
 const Board01=()=> {
+   // state
     const words = ["Crypto", "E-Commerce", "Social Media"];
-      const [wordIndex, setWordIndex] = useState(0);
-      const [displayedText, setDisplayedText] = useState("");
-      const [isDeleting, setIsDeleting] = useState(false);
+    const [wordIndex, setWordIndex] = useState(0);
+    const [displayedText, setDisplayedText] = useState("");
+    const [isDeleting, setIsDeleting] = useState(false);
     
+    // Hooks
       useEffect(() => {
         const currentWord = words[wordIndex];
         const typingSpeed = 30;
@@ -35,6 +38,8 @@ const Board01=()=> {
     
         return () => clearTimeout(timer);
       }, [displayedText, isDeleting, wordIndex]);
+
+      // Handler
   return (
    <section id='banner' className='home2-banner-section'>
     <div className='container justify-center'>

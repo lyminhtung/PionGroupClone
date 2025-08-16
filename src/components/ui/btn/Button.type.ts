@@ -1,6 +1,6 @@
 import { BaseProps } from "@/types/common";
 import { Variance,Size } from "@/types/common";
-export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement>,BaseProps{
+export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement>, BaseProps{
     variant?: Variance | 'outline';
     size?: Size;
     //loading : true hien thi trang thai loading va disable nut

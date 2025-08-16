@@ -10,7 +10,7 @@ const Board07=()=> {
                 <div className='text-start'>
                     <h2 className='md:text-4xl text-xl font-bold  relative inline-block'>Chợ Script - Automation đa dạng</h2>
                 </div>
-                <button className='inline-flex items-center justify-center rounded-md transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 text-primary-foreground shadow hover:bg-primary/90 h-9 size-lg font-bold p-6 md:text-md text-sm text-end'>Xem thêm</button>
+                <button className='bg-black text-white inline-flex items-center justify-center rounded-md transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 text-primary-foreground shadow hover:bg-primary/90 h-9 size-lg font-bold p-6 md:text-md text-sm text-end' style={{borderRadius:'7px'}}>Xem thêm</button>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                 <PostCard iconSrc={squareFbLogo.src}/>
