@@ -44,20 +44,20 @@ const PostCard: React.FC<PostCardProps> = ({
         </div>
 
         {/* Stats Section */}
-        <div className="grid grid-cols-3 gap-2 px-6 pb-6 col-span-12">
+        <div className="grid grid-cols-3 gap-2 px-6 pb-6 col-span-12 mt-15">
           <div className="col-span-1 flex justify-center items-center gap-3">
             <Eye size={24} className="text-gray-600 dark:text-gray-400" />
-            <p className="text-gray-600 dark:text-gray-400">{views}</p>
+            <p className="text-gray-600 dark:text-gray-400 m-0">{views}</p>
           </div>
           
           <div className="col-span-1 flex justify-center items-center gap-3">
             <CloudDownload size={24} className="text-gray-600 dark:text-gray-400" />
-            <p className="text-gray-600 dark:text-gray-400">{downloads}</p>
+            <p className="text-gray-600 dark:text-gray-400 m-0">{downloads}</p>
           </div>
           
           <div className="col-span-1 flex justify-center items-center gap-3">
             <ThumbsUp size={24} className="text-gray-600 dark:text-gray-400" />
-            <p className="text-gray-600 dark:text-gray-400">{likes}</p>
+            <p className="text-gray-600 dark:text-gray-400 m-0">{likes}</p>
           </div>
         </div>
       </div>

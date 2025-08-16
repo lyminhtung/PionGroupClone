@@ -11,8 +11,8 @@ const Board06=()=> {
                         <div className='px-2 sm:container py-10'>
                             <div className='relative grid'>
                                 <div className='mx-auto flex max-w-5xl flex-col items-center gap-6 text-center'>
-                                    <h2 className='text-pretty text-5xl font-bold lg:text-6xl mb-0'>Bảng giá</h2>
-                                    <p className='text-lg text-muted-foreground lg:text-xl'>Trải nghiệm 100 profile miễn phí</p>
+                                    <h2 className='text-pretty text-5xl font-bold lg:text-6xl mb-0' style={{fontSize:"70px"}}>Bảng giá</h2>
+                                    <p className='text-lg hsl(240 3.8% 46.1%;); lg:text-xl'>Trải nghiệm 100 profile miễn phí</p>
                                 </div>
                                 <div className='flex justify-center'>
                                     <div className='grid w-full gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>

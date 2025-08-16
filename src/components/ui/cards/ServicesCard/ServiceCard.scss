@@ -5,6 +5,10 @@
     padding: 30px 25px;
     border-left: 1px solid rgba(11, 12, 12, .1);
     border-bottom: 1px solid rgba(11, 12, 12, .1);
+
+        svg{
+            transition: all .5s ease-out;
+        }
 }
 .services-content{
     .title-category{
@@ -23,4 +27,16 @@
             margin-bottom: 0;
         }
     }
+}
+@keyframes spin-once {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.group:hover .icon {
+  animation: spin-once 0.6s linear; // xoay 1 vòng mỗi lần hover
 }

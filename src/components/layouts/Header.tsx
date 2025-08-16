@@ -8,7 +8,7 @@ const MainHeader=() =>{
     console.log('Button type:', typeof Button);
   return (
     <header className="header-area style-1">
-        <div className="container flex flex-nowrap items-center justify-between">
+        <div className="container flex flex-nowrap items-center justify-between" style={{display:'flex !important'}}>
             <div className="company-logo">
                 <div className="flex items-center space-x-2">
                     <a className="flex items-center justify-center" href=''>
@@ -26,7 +26,7 @@ const MainHeader=() =>{
                         </a>
                     </li>
                     <li className="">
-                        <a className='drop-down flex items-center' href='#banner'>
+                        <a className='drop-down flex items-center' href='#price'>
                             Bảng giá
                         </a>
                     </li>

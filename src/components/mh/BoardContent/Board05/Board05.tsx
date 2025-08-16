@@ -6,7 +6,7 @@ const Board05 =()=> {
   return (
     <section id='partner-marquee' className='logo-section wow animate fadeInUp border-y bg-[#f4f4f4] dark:bg-[#242627] delay-200 duration-1500 ease-in-out'>
         <div className='container-fluid'>
-            <h2 className='text-center font-bold text-3xl mb-16 mt-10'>Lựa chọn hàng đầu của hơn 200.000+ người dùng trên mọi lĩnh vực</h2>
+            <h2 className='text-center font-bold text-3xl mb-5 mt-3 pb-4'>Lựa chọn hàng đầu của hơn 200.000+ người dùng trên mọi lĩnh vực</h2>
             <div className='logo-wrap'>
                 <div className='logo-area'>
                     <Marquee speed={50} gradient={false}>

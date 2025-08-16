@@ -10,6 +10,8 @@ import Board04 from './BoardContent/Board04/Board04';
 import Board05 from './BoardContent/Board05/Board05';
 import Board06 from './BoardContent/Board06/Board06';
 import Board07 from './BoardContent/Board07/Board07';
+import Board08 from './BoardContent/Board08/Board08';
+import Board09 from './BoardContent/Board09/Board09';
 const MainContainer = () =>{
   
   return (
@@ -21,12 +23,8 @@ const MainContainer = () =>{
         <Board05/>
         <Board06/>
         <Board07/>
-        <div>
-            <h1>Board 08</h1>
-        </div>
-        <div>
-            <h1>Board 09</h1>
-        </div>
+        <Board08/>
+        <Board09/>
     </div>
 
   )
