@@ -1,35 +1,35 @@
-@use '../../../styles/variables.scss' as vars;
+@use "../../../styles/variables.scss" as vars;
 
 .btn {
   width: vars.$button-width-sm;
   height: vars.$button-height-sm;
   border: 1px solid vars.$primary-color;
-  border-radius: vars.$button-radius-sm ;
+  border-radius: vars.$button-radius-sm;
   padding: vars.$button-padding-sm;
   font-size: vars.$button-font-sm;
   background-color: vars.$primary-color;
-  color: vars.$text-color-text;
+  color: white;
+  font-family: vars.$font-family;
   transition: vars.$transition;
-     &-sm{
-        width: vars.$button-width-sm;
-        height: vars.$button-height-sm;
-    }
-    &-lg{
-        width: vars.$button-width-lg;
-        height: vars.$button-height-lg;
-    }
+  &-sm {
+    width: vars.$button-width-sm;
+    height: vars.$button-height-sm;
+  }
+  &-lg {
+    width: vars.$button-width-lg;
+    height: vars.$button-height-lg;
+  }
   &:hover {
     background-color: vars.$primary-color;
   }
-  &-secondary{
+  &-secondary {
     background-color: vars.$secondary-color;
     color: white;
-    &span{
-        background-color: red;
-    } 
+    &span {
+      background-color: red;
+    }
     &:hover:not(:disabled) {
       background-color: vars.$primary-color;
     }
-   
   }
-} 
+}
