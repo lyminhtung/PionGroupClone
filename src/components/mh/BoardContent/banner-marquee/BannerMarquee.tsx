@@ -1,7 +1,7 @@
 import React from 'react'
 import Marquee from "react-fast-marquee";
-import './Board02.scss'
-const Board02 =()=> {
+import './BannerMarquee.scss'
+const BannerMarquee =()=> {
   return (
     <section id='banner' className='home1-banner-bottom'>
         <Marquee className='marquee-container' speed={50} gradient={false}>
@@ -42,4 +42,4 @@ const Board02 =()=> {
   )
 }
 
-export default Board02
+export default BannerMarquee

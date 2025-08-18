@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { logo } from '../../../public/img'
-import './Header.css'
+import './Header.scss'
 import '../../styles/button.scss'
 import { Button } from '@/components/ui/btn/Button.component';
 const MainHeader=() =>{
@@ -19,7 +19,7 @@ const MainHeader=() =>{
                 </div>
             </div>
             <div className="main-menu lg:!flex">
-                <ul className="menu-list flex flex-nowrap items-center justify-between">
+                <ul className="menu-list flex flex-nowrap items-center justify-between gap-5">
                     <li className="">
                         <a className='drop-down flex items-center' href='#banner'>
                             Trang chủ
@@ -30,26 +30,56 @@ const MainHeader=() =>{
                             Bảng giá
                         </a>
                     </li>
-                    <li className="menu-item-has-children flex h-full">
+                    <li className="menu-item-has-children flex h-full relative">
                         <a className='drop-down flex items-center h-full cursor-pointer' href='#banner'>
                             Hướng dẫn
                         </a>
-                        <i className="bi bi-chevron-down pl-2">
-                        </i>
+                        <i className="bi bi-chevron-down pl-2"></i>
+                        <ul className='sub-menu'>
+                            <li>
+                            <a href="#">Tài liệu hướng dẫn</a>
+                            </li>
+                            <li>
+                            <a href="#">Video hướng dẫn</a>
+                            </li>
+                            <li>
+                            <a href="#">Tài liệu API</a>
+                            </li>
+                        </ul>
                     </li>
-                    <li className="menu-item-has-children flex h-full">
-                        <a className='drop-down flex items-center' href='#banner'>
+                    <li className="menu-item-has-children flex h-full relative">
+                        <a className='drop-down flex items-center h-full cursor-pointer' href='#banner'>
                             Tài nguyên
                         </a>
-                        <i className="bi bi-chevron-down pl-2">
-                        </i>
+                        <i className="bi bi-chevron-down pl-2"></i>
+                        <ul className='sub-menu'>
+                            <li>
+                            <a href="#">Bài viết</a>
+                            </li>
+                            <li>
+                            <a href="#">Chợ Script</a>
+                            </li>
+                            <li>
+                            <a href="#">Đối tác</a>
+                            </li>
+                        </ul>
                     </li>
-                    <li className="menu-item-has-children flex h-full">
-                        <a className='drop-down flex items-center' href='#banner'>
+                    <li className="menu-item-has-children flex h-full relative">
+                        <a className='drop-down flex items-center h-full cursor-pointer' href='#banner'>
                             Cộng đồng
                         </a>
-                        <i className="bi bi-chevron-down pl-2">
-                        </i>
+                        <i className="bi bi-chevron-down pl-2"></i>
+                        <ul className='sub-menu'>
+                            <li>
+                            <a href="#">Facebook</a>
+                            </li>
+                            <li>
+                            <a href="#">Telegram</a>
+                            </li>
+                            <li>
+                            <a href="#">Youtube</a>
+                            </li>
+                        </ul>
                     </li>
                     <li className="">
                         <a className='drop-down flex items-center' href='#banner'>

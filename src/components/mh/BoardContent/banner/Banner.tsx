@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/btn/Button.component'
 import { useState,useEffect } from 'react';
 import './Board01.scss';
 
-const Board01=()=> {
+const Banner=()=> {
    // state
     const words = ["Crypto", "E-Commerce", "Social Media"];
     const [wordIndex, setWordIndex] = useState(0);
@@ -80,4 +80,4 @@ const Board01=()=> {
   )
 }
 
-export default Board01
+export default Banner

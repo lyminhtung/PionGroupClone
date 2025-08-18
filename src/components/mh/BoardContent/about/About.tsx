@@ -3,7 +3,7 @@ import React from 'react'
 import { img_singleDown01 } from '../../../../../public/img'
 import { img_singleDown02 } from '../../../../../public/img'
 import { img_singleDown03 } from '../../../../../public/img'
-const Board03=()=>{
+const About=()=>{
   return (
    <section id='about' className='home2-about-section pt-20 bg-[#f4f4f4] dark:bg-[#242627] align-center'>
         <div className='container'>
@@ -68,4 +68,4 @@ const Board03=()=>{
   )
 }
 
-export default Board03
+export default About

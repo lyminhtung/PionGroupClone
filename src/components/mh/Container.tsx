@@ -3,28 +3,30 @@ import React from 'react'
 import { Button } from '../ui/btn/Button.component'
 import { useState,useEffect } from 'react';
 import'./Container.scss'
-import Board01 from './BoardContent/Board01/Board01';
-import Board02 from './BoardContent/Board02/Board02';
-import Board03 from './BoardContent/Board03/Board03';
-import Board04 from './BoardContent/Board04/Board04';
-import Board05 from './BoardContent/Board05/Board05';
-import Board06 from './BoardContent/Board06/Board06';
-import Board07 from './BoardContent/Board07/Board07';
-import Board08 from './BoardContent/Board08/Board08';
-import Board09 from './BoardContent/Board09/Board09';
+import Banner from './BoardContent/banner/Banner';
+import BannerMarquee from './BoardContent/banner-marquee/BannerMarquee';
+import About from './BoardContent/about/About';
+import Service from './BoardContent/service/Service';
+import PartnerMarquee from './BoardContent/partner-marquee/PartnerMarquee';
+import Pricing from './BoardContent/pricing/Pricing';
+import ScriptMarket from './BoardContent/script-market/ScriptMarket';
+import Testimonial from './BoardContent/testimonial/Testimonial';
+import Faq from './BoardContent/faq/Faq';
+import FreeTrialBanner from './BoardContent/free-trial-banner/FreeTrialBanner';
 const MainContainer = () =>{
   
   return (
-    <div>
-        <Board01/>
-        <Board02/>
-        <Board03/>
-        <Board04/>
-        <Board05/>
-        <Board06/>
-        <Board07/>
-        <Board08/>
-        <Board09/>
+    <div className='main-container w-full min-h-screen overflow-x-hidden max-w-full'>
+        <Banner/>
+        <BannerMarquee/>
+        <About/>
+        <Service/>
+        <PartnerMarquee/>
+        <Pricing/>
+        <ScriptMarket/>
+        <Testimonial/>
+        <Faq/>
+        <FreeTrialBanner/>
     </div>
 
   )

@@ -1,8 +1,8 @@
 import React from 'react'
-import './Board04.scss'
+import './Service.scss'
 import ServiceCard from '@/components/ui/cards/ServicesCard/ServiceCard'
 import {ServiceIcon01,ServiceIcon02,ServiceIcon03,ServiceIcon04,ServiceIcon05,ServiceIcon06} from '../../../../../public/svg/ServiceIcon01'
-const Board04 =()=> {
+const Service =()=> {
   return (
     <section id='service' className='home5-services-section bg-white dark:bg-[#000]'>
         <div className='grid grid-cols-12 xl:gap-6'>
@@ -58,4 +58,4 @@ const Board04 =()=> {
   )
 }
 
-export default Board04
+export default Service

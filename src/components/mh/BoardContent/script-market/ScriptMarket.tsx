@@ -1,8 +1,8 @@
 import PostCard from '@/components/ui/cards/PostCard/PostCard'
-import './Board07.scss'
+import './ScriptMarket.scss'
 import React from 'react'
 import { squareFbLogo, suqareGmailLogo ,squareInstaLogo, squareDiscordLogo} from '../../../../../public/logo/logo'
-const Board07=()=> {
+const ScriptMarket=()=> {
   return (
     <section id='script-market' className='pt-10 pb-8 px-4 sm:px-6 lg:px-8 bg-[#f4f4f4] dark:bg-[#242627]'>
         <div className='container'>
@@ -40,4 +40,4 @@ const Board07=()=> {
   )
 }
 
-export default Board07
+export default ScriptMarket
