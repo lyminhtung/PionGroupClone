@@ -1,6 +1,6 @@
-import { BaseProps } from "@/types/common";
+import { BaseProps } from '@/types/common'
 
-export interface ButtonShowContentProps extends BaseProps{
-    title?: string,
-    description?:string
+export interface ButtonShowContentProps extends BaseProps {
+  title?: string
+  description?: string
 }

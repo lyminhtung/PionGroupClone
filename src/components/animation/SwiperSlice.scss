@@ -1,23 +1,22 @@
-.container-card{
-    background-color: #fff;
-    padding: 40px 35px;
-    border-radius: 10px;
-    position: relative;
-    border: 1px solid #eee;
-    
+.container-card {
+  background-color: #fff;
+  padding: 40px 35px;
+  border-radius: 10px;
+  position: relative;
+  border: 1px solid #eee;
 }
-.container-card::before{
-    content: url(https://pionlogin.net/_next/static/media/testimonial-card3-quote.d7e9b27e.svg);
-    position: absolute;
-    top: 0;
-    right: 18%;
+.container-card::before {
+  content: url(https://pionlogin.net/_next/static/media/testimonial-card3-quote.d7e9b27e.svg);
+  position: absolute;
+  top: 0;
+  right: 18%;
 }
-.swiper-button-next:after{
-    display: none;
+.swiper-button-next:after {
+  display: none;
 }
-.swiper-button-next::before{
-    display: none;
+.swiper-button-next::before {
+  display: none;
 }
-.swiper-button-prev:after{
-    display: none;
+.swiper-button-prev:after {
+  display: none;
 }

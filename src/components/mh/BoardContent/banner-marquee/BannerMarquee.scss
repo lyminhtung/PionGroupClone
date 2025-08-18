@@ -1,24 +1,23 @@
-.home1-banner-bottom{
-        background: #1e1f1f;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        gap: 40px;
-        padding-right: 40px;
-    p{
-        color: hsla(0, 0%, 100%, .7);
-        font-family: var(--font-inter);
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 1;
-        letter-spacing: .36px;
-        text-transform: uppercase;
-        margin-bottom: 0;
-    }
-    svg{
-        fill: #fff;
-        display: block;
-        vertical-align: middle;
-
-    }
+.home1-banner-bottom {
+  background: #1e1f1f;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding-right: 40px;
+  p {
+    color: hsla(0, 0%, 100%, 0.7);
+    font-family: var(--font-inter);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.36px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  svg {
+    fill: #fff;
+    display: block;
+    vertical-align: middle;
+  }
 }

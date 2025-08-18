@@ -1,26 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 //variables.scss
 $primary-color: #000000;
-$light-blue-color: #AED0FF;
-$light-green-color: #C9DC82;
+$light-blue-color: #aed0ff;
+$light-green-color: #c9dc82;
 $text-color-text: #000000;
-$background-color: #FFFFFF;
+$background-color: #ffffff;
 $success-color: #198754;
-$warning-color: #FFC107;
-$danger-color: #DC3545;
+$warning-color: #ffc107;
+$danger-color: #dc3545;
 $secondary-color: #6c757d;
-$dark-color:#000000;
+$dark-color: #000000;
 
-$font-family: 'Poppins', sans-serif;
+$font-family: "Inter", sans-serif;
 $font-size-sm: 12px;
 $font-size-md: 14px;
 $font-size-lg: 16px;
 
-$border-radius:10px ;
-$border-radius-lg:12px;
+$border-radius: 10px;
+$border-radius-lg: 12px;
 $box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 $box-shadow-lg: 0 4px 8px rgba(0, 0, 0, 0.15);
 $transition: all 0.2s ease-in-out;
-
 
 $spacing-xs: 4px;
 $spacing-sm: 8px;
