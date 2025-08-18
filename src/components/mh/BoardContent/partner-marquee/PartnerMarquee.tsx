@@ -1,8 +1,8 @@
-import './Board05.scss'
+import './PartnerMarquee.scss'
 import React from 'react'
 import Marquee from 'react-fast-marquee'
 import { discordLogo,fbLogo,insntaLogo,teleLogo,xwebLogo,youtubeLogo,tiktokLogo,chormeLogo } from '../../../../../public/logo/logo'
-const Board05 =()=> {
+const PartnerMarquee =()=> {
   return (
     <section id='partner-marquee' className='logo-section wow animate fadeInUp border-y bg-[#f4f4f4] dark:bg-[#242627] delay-200 duration-1500 ease-in-out'>
         <div className='container-fluid'>
@@ -66,4 +66,4 @@ const Board05 =()=> {
   )
 }
 
-export default Board05
+export default PartnerMarquee

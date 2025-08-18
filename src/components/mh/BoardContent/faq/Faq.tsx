@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import './Board09.scss'
+import './Faq.scss'
 import { log } from 'console'
 import { ButtonShowContent } from '@/components/ui/btn/buttonShowContent/ButtonShowContent'
-const Board09=()=> {
+const Faq=()=> {
 
     
   return (
@@ -58,4 +58,4 @@ const Board09=()=> {
   )
 }
 
-export default Board09
+export default Faq

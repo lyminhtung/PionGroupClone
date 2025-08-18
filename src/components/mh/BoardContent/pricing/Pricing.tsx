@@ -1,7 +1,8 @@
 import React from 'react'
-import './Board06'
+import './Pricing'
 import PriceCard from '@/components/ui/cards/PriceCard/PriceCard'
-const Board06=()=> {
+import './Pricing.scss'
+const Pricing=()=> {
   return (
     <section id='price'>
         <div className='flex min-h-0 flex-1 flex-col gap-3 group-data-[collapsible=icon]:overflow-hidden overflow-hidden'>
@@ -40,4 +41,4 @@ const Board06=()=> {
   )
 }
 
-export default Board06
+export default Pricing
