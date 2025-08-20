@@ -1,7 +1,5 @@
-import React, { useState } from "react";
-import "./Faq.scss";
-import { log } from "console";
-import { ButtonShowContent } from "@/components/ui/btn/buttonShowContent/ButtonShowContent";
+import { ButtonShowContent } from '@/components/ui/btn/buttonShowContent/ButtonShowContent'
+import './Faq.scss'
 const Faq = () => {
   return (
     <section
@@ -56,7 +54,7 @@ const Faq = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Faq;
+export default Faq

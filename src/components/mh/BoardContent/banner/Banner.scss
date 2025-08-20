@@ -21,15 +21,33 @@
   max-width: 1130px;
   width: 100%;
   margin: 0 auto 70px;
-  min-width: 500px !important;
-  min-height: 90px !important;
   h1,
   h2 {
-    width: 1030px;
     font-size: 70px;
     font-weight: 900;
     line-height: 1.2;
     margin-bottom: 40px;
+    white-space: normal; // cho phép xuống dòng
+    word-wrap: break-word; // cắt từ nếu quá dài
+    overflow-wrap: break-word; // fallback cho trình duyệt mới
+    @media (min-width: 992px) and (max-width: 1199px) {
+      font-size: 65px;
+      margin-bottom: 30px;
+    }
+    @media (max-width: 991px) {
+      font-size: 50px;
+      margin-bottom: 30px;
+    }
+    @media (max-width: 767px) {
+      max-width: 100%;
+      font-size: 45px;
+      margin-bottom: 25px;
+    }
+    @media (max-width: 576px) {
+      max-width: 100%;
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
   }
   p {
     font-size: 17px;
