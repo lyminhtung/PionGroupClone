@@ -1,41 +1,41 @@
-import React from "react";
-import { Button } from "@/components/ui/btn/Button.component";
-import { useState, useEffect } from "react";
-import "./Banner.scss";
+import React from 'react'
+import { Button } from '@/components/ui/btn/Button.component'
+import { useState, useEffect } from 'react'
+import './Banner.scss'
 
 const Banner = () => {
-  const words = ["Crypto", "E-Commerce", "Social Media"];
-  const [wordIndex, setWordIndex] = useState(0);
-  const [displayedText, setDisplayedText] = useState("");
-  const [isDeleting, setIsDeleting] = useState(false);
+  const words = ['Crypto', 'E-Commerce', 'Social Media']
+  const [wordIndex, setWordIndex] = useState(0)
+  const [displayedText, setDisplayedText] = useState('')
+  const [isDeleting, setIsDeleting] = useState(false)
 
   useEffect(() => {
-    const currentWord = words[wordIndex];
-    const typingSpeed = 30;
+    const currentWord = words[wordIndex]
+    const typingSpeed = 30
 
     const timer = setTimeout(() => {
       if (!isDeleting) {
         setDisplayedText((prev) => {
-          const next = currentWord.substring(0, prev.length + 1);
+          const next = currentWord.substring(0, prev.length + 1)
           if (next === currentWord) {
-            setTimeout(() => setIsDeleting(true), 1000);
+            setTimeout(() => setIsDeleting(true), 1000)
           }
-          return next;
-        });
+          return next
+        })
       } else {
         setDisplayedText((prev) => {
-          const next = currentWord.substring(0, prev.length - 1);
-          if (next === "") {
-            setIsDeleting(false);
-            setWordIndex((prevIndex) => (prevIndex + 1) % words.length);
+          const next = currentWord.substring(0, prev.length - 1)
+          if (next === '') {
+            setIsDeleting(false)
+            setWordIndex((prevIndex) => (prevIndex + 1) % words.length)
           }
-          return next;
-        });
+          return next
+        })
       }
-    }, typingSpeed);
+    }, typingSpeed)
 
-    return () => clearTimeout(timer);
-  }, [displayedText, isDeleting, wordIndex]);
+    return () => clearTimeout(timer)
+  }, [displayedText, isDeleting, wordIndex])
 
   return (
     <section id="banner" className="home2-banner-section">
@@ -57,7 +57,9 @@ const Banner = () => {
                 Trình duyệt ẩn danh bảo vệ tài khoản
                 <br />
                 <span>
-                  <span className="index-module_type__E-SaG"></span>
+                  <span className="index-module_type__E-SaG">
+                    {displayedText}
+                  </span>
                 </span>
                 <span className="text-type"></span>
               </h2>
@@ -90,7 +92,7 @@ const Banner = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Banner;
+export default Banner
